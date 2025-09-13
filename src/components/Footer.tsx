@@ -2,18 +2,18 @@ import { MessageCircle } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="py-12 bg-muted/30 border-t border-border/50">
+    <footer className="py-12 bg-background border-t border-border/50">
       <div className="container mx-auto px-4">
         <div className="text-center space-y-6">
           <div className="flex items-center justify-center gap-2">
-            <div className="w-8 h-8 bg-gradient-warm rounded-lg flex items-center justify-center">
+            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
               <MessageCircle className="w-5 h-5 text-primary-foreground" />
             </div>
             <span className="text-2xl font-bold text-foreground">TalkDeeply</span>
           </div>
           
           <p className="text-muted-foreground max-w-md mx-auto">
-            Transforming conversations, one meaningful question at a time.
+            Transforming relationships, one question at a time.
           </p>
           
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
@@ -25,7 +25,7 @@ const Footer = () => {
           
           <div className="pt-6 border-t border-border/50">
             <p className="text-muted-foreground text-sm">
-              © 2024 TalkDeeply. All rights reserved.
+              © 2025 TalkDeeply. All rights reserved.
             </p>
           </div>
         </div>

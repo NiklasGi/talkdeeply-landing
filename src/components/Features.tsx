@@ -26,14 +26,14 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20 ">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Why Choose TalkDeeply?
+            Move beyond superficial conversations
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Move beyond superficial conversations and create lasting connections through purposeful dialogue.
+            Create lasting connections and improve your relationships through purposeful dialogue.
           </p>
         </div>
 
@@ -45,8 +45,8 @@ const Features = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <CardContent className="p-6 text-center space-y-4">
-                <div className="w-12 h-12 mx-auto bg-gradient-warm rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <feature.icon className="w-6 h-6 text-primary-foreground" />
+                <div className="w-12 h-12 mx-auto bg-primary rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <feature.icon className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-foreground">
                   {feature.title}
