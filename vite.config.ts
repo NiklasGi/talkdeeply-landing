@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
-  base: "talkdeeply-landing",
+  base: "/talkdeeply-landing/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

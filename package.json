@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://niklasgi.github.io/talkdeeply-landing/",
+  "homepage": "https://niklasgi.github.io/talkdeeply-landing",
 
   "scripts": {
     "predeploy": "npm run build",
